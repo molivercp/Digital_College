@@ -1,0 +1,76 @@
+section {
+    position: relative;
+    background-color: aqua;
+
+    height: 400px;
+}
+
+
+.box {
+    width: 120px;
+    height: 120px;
+
+    
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: ;
+    bottom: ;
+    z-index: 4;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.yelow {
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+.red1 {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.blue2 {
+    background-color: blue;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.yelow3 {
+    background-color: yellow;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+
+.green4 {
+    background-color: green;
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+
