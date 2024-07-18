@@ -1,0 +1,81 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cab {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: px;
+}
+
+.sobre {
+    background-color: darkgray;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+.projetos {
+    background-color: darkgray;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+.pro {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.contato {
+background-color: darkgray;
+width: 100%;
+height: 10%;
+border-radius: 10px;
+padding-left: 10px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+footer {
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
